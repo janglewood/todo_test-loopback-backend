@@ -1,0 +1,9 @@
+{
+  "name": "db",
+  "connector": "postgresql",
+  "url": "postgresql://antonkaratkevich@localhost:5432/todo_test",
+  "host": "localhost",
+  "port": 5432,
+  "user": "antonkaratkevich",
+  "database": "todo_test"
+}
