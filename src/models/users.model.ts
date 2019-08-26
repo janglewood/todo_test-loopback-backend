@@ -1,6 +1,6 @@
-import {Entity, model, property} from '@loopback/repository';
+import { Entity, model, property } from '@loopback/repository';
 
-@model({settings: {}})
+@model({ settings: {} })
 export class Users extends Entity {
   @property({
     type: 'number',
@@ -26,7 +26,7 @@ export class Users extends Entity {
   @property({
     type: 'string',
   })
-  description?: string;
+  description?: any; //where does the userID came from
 
 
   constructor(data?: Partial<Users>) {

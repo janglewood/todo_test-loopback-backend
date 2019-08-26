@@ -38,7 +38,7 @@ export class UserController {
     @requestBody({
       content: {
         'application/json': {
-          schema: getModelSchemaRef(Users, { exclude: ['id', 'description'] }),
+          schema: getModelSchemaRef(Users, { exclude: ['id'] }),
         },
       },
     })
